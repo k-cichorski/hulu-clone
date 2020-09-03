@@ -1,0 +1,21 @@
+.video__card {
+    color: white;
+    width: 500px;
+    padding: 20px;
+    height: 400px;
+    transition: transform 100ms;
+}
+
+.video__card:hover {
+    transform: scale(1.09);
+}
+
+.video__card > img {
+    height: 300px;
+    object-fit: contain;
+    width: 500px;
+}
+
+.video__card > h2 {
+    padding-top: 10px
+}

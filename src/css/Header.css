@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.header::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.header {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.hulu__logo {
+    object-fit: contain;
+    height: 80px;
+}
+
+.header__icons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.header__icon {
+    display: flex;
+    flex-flow: column;
+    width: 100px;
+    cursor: pointer;
+}
+
+.header__icon > .MuiSvgIcon-root {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__icon > p {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: none;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__icon:hover > p {
+    display: inline-flex;
+}
+
+.header__icon--active > p {
+    display: inline-flex !important;
+}
