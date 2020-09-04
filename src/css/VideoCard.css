@@ -19,3 +19,23 @@
 .video__card > h2 {
     padding-top: 10px
 }
+
+.video__card > p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.MuiSvgIcon-root {
+    margin-bottom: -5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.movie__likes {
+    display: none;
+}
+
+.video__card:hover > .movie__likes {
+    display: flex;
+}
