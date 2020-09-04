@@ -1,5 +1,6 @@
-.results {
+.results  {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    padding-bottom: 30px;
 }
