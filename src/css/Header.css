@@ -39,6 +39,7 @@
 .header__icon > .MuiSvgIcon-root {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3px;
 }
 
 .header__icon > p {
