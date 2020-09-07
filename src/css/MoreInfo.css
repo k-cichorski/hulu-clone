@@ -13,13 +13,12 @@
     color: white;
     padding: 50px;
     justify-content: space-between;
-    overflow-y: scroll;
 }
 
 .yt__logo {
     object-fit: contain;
     max-height: 50px;
-    max-width: 100px;
+    max-width: 70px;
     margin-bottom: -19px;
     filter: invert(1);
     transition: transition 500ms;
@@ -72,7 +71,7 @@
         margin-bottom: 20px;
     }
     .movie__poster {
-        max-height: 300px;
+        max-height: 143px;
     }
     .container {
         padding: 15px;
