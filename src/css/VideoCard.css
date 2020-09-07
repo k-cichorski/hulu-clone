@@ -77,8 +77,12 @@
         display: flex;
     }
     .video__card {
-        padding: 0px;
+        padding: 0;
         margin-bottom: 30px;
+    }
+
+    .video__card > img {
+        max-height: 193px;
     }
 }
 
