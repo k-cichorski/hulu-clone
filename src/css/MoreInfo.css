@@ -48,6 +48,7 @@
     padding: 10px;
     opacity: 0.7;
     transition: transform 200ms;
+    cursor: pointer;
 }
 
 .close__icon:hover {
